@@ -42,7 +42,6 @@ class ViewController: UIViewController {
     
     func setupViews() {
         view.addSubview(collectionView)
-//        collectionView.contentInsetAdjustmentBehavior = .always
         collectionView.delegate = self
         collectionView.dataSource = self
         layout.itemSize = CGSize(width: (collectionView.frame.width / 2) + 60, height: collectionView.frame.height - 20)
@@ -53,9 +52,6 @@ class ViewController: UIViewController {
     
 }
 
-extension ViewController: UICollectionViewDelegate  {
-    
-}
 extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         10
@@ -75,14 +71,8 @@ extension ViewController: UICollectionViewDataSource {
         
         return cell
     }
-    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        if (indexPath.row == 10 - 1) {
-            print(#function)
-        }
-    }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        print(#function)
         if section == 0 {
             return UIEdgeInsets(top: 0, left: collectionView.layoutMargins.left, bottom: 0, right: 0)
         }
@@ -94,7 +84,6 @@ extension ViewController: UICollectionViewDataSource {
 
 extension ViewController: UIScrollViewDelegate {
     func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
-        print(#function)
         
         guard let layout = self.collectionView.collectionViewLayout as? UICollectionViewFlowLayout else { return }
         let cellWidthCludingSpacing = layout.itemSize.width + layout.minimumLineSpacing

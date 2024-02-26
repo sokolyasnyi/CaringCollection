@@ -20,7 +20,6 @@ class ViewController: UIViewController {
     lazy private var collectionView: UICollectionView = {
         let collectionView = UICollectionView(frame: CGRect(x: 0, y: 300, width: view.frame.width, height: 400),
                                               collectionViewLayout: layout)
-//        collectionView.backgroundColor = .red
         collectionView.showsHorizontalScrollIndicator = false
         return collectionView
     }()
@@ -29,7 +28,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         navigationItem.title = "Collection"
         self.title = "Collection"
         

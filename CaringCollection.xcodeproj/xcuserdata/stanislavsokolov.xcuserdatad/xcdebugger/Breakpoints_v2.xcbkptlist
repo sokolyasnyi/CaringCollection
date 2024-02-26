@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "27DB4E0D-01EB-4EF4-BE16-289C8CDDF2C9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "082DF036-A7CA-4884-9242-0FE6DE5D9ABE"
+            shouldBeEnabled = "No"
+            nameForDebugger = "printoffset"
+            ignoreCount = "0"
+            continueAfterRunningActions = "Yes"
+            filePath = "CaringCollection/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "scrollViewWillEndDragging(_:withVelocity:targetContentOffset:)"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "po targetContentOffset.pointee">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "339E78C1-5FDA-4507-85C1-FE07529272F9"
+            shouldBeEnabled = "No"
+            nameForDebugger = "printnewoffset"
+            ignoreCount = "0"
+            continueAfterRunningActions = "Yes"
+            filePath = "CaringCollection/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "scrollViewWillEndDragging(_:withVelocity:targetContentOffset:)"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "po offset">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+            <Locations>
+               <Location
+                  uuid = "339E78C1-5FDA-4507-85C1-FE07529272F9 - e341ea16fd6e534d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CaringCollection.ViewController.scrollViewWillEndDragging(_: __C.UIScrollView, withVelocity: __C.CGPoint, targetContentOffset: Swift.UnsafeMutablePointer&lt;__C.CGPoint&gt;) -&gt; ()"
+                  moduleName = "CaringCollection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stanislavsokolov/Xcode/CaringCollection/CaringCollection/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "1732">
+               </Location>
+               <Location
+                  uuid = "339E78C1-5FDA-4507-85C1-FE07529272F9 - e341ea16fd6e534d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CaringCollection.ViewController.scrollViewWillEndDragging(_: __C.UIScrollView, withVelocity: __C.CGPoint, targetContentOffset: Swift.UnsafeMutablePointer&lt;__C.CGPoint&gt;) -&gt; ()"
+                  moduleName = "CaringCollection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stanislavsokolov/Xcode/CaringCollection/CaringCollection/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "1748">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
